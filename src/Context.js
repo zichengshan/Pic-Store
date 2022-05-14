@@ -10,9 +10,9 @@ function ContextProvider({children}) {
             .then(res => res.json())
             .then(data => setAllPhotos(data))
     }, [])
-    
+
     return (
-        <Context.Provider value={allPhotos}>
+        <Context.Provider value={{allPhotos}}>
             {children}
         </Context.Provider>
     )
