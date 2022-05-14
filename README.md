@@ -1,3 +1,23 @@
+# Image Mall
+## Description
+This is a mock e-commerce site where users can set pictures as favorites and add pictures to cart for purchase.
+
+### Features
+1. Favorite a picture
+2. Un-favorite a picture
+3. Add image to cart
+4. Remove image from shopping cart (main page and shopping cart page)
+5. Calculate the total price
+6. Place an order
+
+## Demo
+This app has been deployed, and you can try it through this link: https://main.d3mfo38wzwdhsz.amplifyapp.com/
+
+https://user-images.githubusercontent.com/61951792/168451229-2d847b48-9bdd-4170-8c89-efd3083dcf73.mov
+
+
+---------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
