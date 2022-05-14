@@ -1,5 +1,6 @@
 import React, {useContext, useState} from "react"
 import {Context} from "../Context";
+import PropTypes from "prop-types";
 
 function CartItem({item}) {
     const {removeFromCart} = useContext(Context)
@@ -11,6 +12,12 @@ function CartItem({item}) {
 
     function handleChangeLeave() {
         setTrashIconClassname("ri-delete-bin-line")
+    }
+
+    CartItem.prototype = {
+        item: PropTypes.shape({
+            url: PropTypes.string.isRequired
+        })
     }
 
     return (
