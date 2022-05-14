@@ -11,8 +11,8 @@ function App() {
         <div>
             <Header/>
             <Routes>
-                <Route exact path = "/" element = {<Photos />} />
-                <Route exact path = "/cart" element={<Cart />} />
+                <Route exact path="/" element={<Photos/>}/>
+                <Route exact path="/cart" element={<Cart/>}/>
             </Routes>
         </div>
 
